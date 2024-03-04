@@ -15,7 +15,7 @@ export class registerPage {
     }
 
     openUrl() {
-        cy.visit(Cypress.env('URL'))
+        cy.visit(Cypress.env('RegisterURL'))
     }
 
     enterFirstName(firstNameValue) {
