@@ -1,7 +1,7 @@
 name: Script Build Test
 on: push
 jobs:
-  addToCart:
+  addToCart-run:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -13,7 +13,7 @@ jobs:
         with:
           command: npm run registerTest
 
-   registerFlow:
+  registerFlow-run:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -23,4 +23,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          command: npm run addToCartTest       
+          command: npm run addToCartTest
