@@ -1,7 +1,7 @@
 name: Script Build Test
 on: push
 jobs:
-  addToCart-run:
+  addToCartTest-run:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -13,7 +13,7 @@ jobs:
         with:
           command: npm run registerTest
 
-  registerFlow-run:
+  registerFlowTest-run:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
