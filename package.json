@@ -1,13 +1,14 @@
 {
   "name": "cypressframeworkpractice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automation test practice",
   "main": "index.js",
   "scripts": {
     "testRunner": "npx cypress open",
-    "addToCartTest": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js"
+    "addToCartTest": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js",
+    "registerTest": "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js"
   },
-  "author": "",
+  "author": "Harikrishnaveni",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.6.6",
