@@ -1,6 +1,7 @@
 module.exports = {
   e2e: {
     reporter: 'cypress-mochawesome-reporter',
+    video: true,
     // reporterOptions: {
     //   charts: true,
     //   reportPageTitle: 'AutomationTestReport',
